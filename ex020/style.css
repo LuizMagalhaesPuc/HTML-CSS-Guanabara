@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(56, 116, 116);
+}
+/* usando id para personalizar um elemento */
+#principal{
+    color: yellowgreen;
+    background-color: yellow;
+    font-weight: bolder;
+
+}
+h2{
+    color: red;
+}
+/* usando classe */
+.h2-titulo{
+    background-color: beige;
+    text-align: center;
+}

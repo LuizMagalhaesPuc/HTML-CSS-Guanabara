@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Usando a tag picture para criar imagens dinâmicas</h1>
+    <p>Aumente ou diminua a resolução do navegador para ver as imagens</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.jpeg" type="image/jpeg"> <!--Isso serve para controlar qual imagem aparecerá de acordo com o tamanho px-->
+        <img src="img/foto-g.jpg" alt="Foto 1000x1000">
+    </picture>
+
+    <h1>Reproduzindo áudio em HTML</h1>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio> <!-- Controls mostra os botoes e autoplay sempre começa o audio-->
+</body>
+</html>

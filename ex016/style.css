@@ -1,0 +1,12 @@
+@charset "UTF-8"; /* CSS externo é o mais indicado */ 
+
+body{ 
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+   color: red;
+}
+p{
+    text-align: justify;
+}

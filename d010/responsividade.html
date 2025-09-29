@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando a responsividade</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /* valor minmo de largura*/
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%; 
+            /* coloca a largura da imagem em 100% do main, fazendo que ela não quebre  */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando a responsividade do meu site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ratione id error adipisci accusamus quae. Esse aspernatur aperiam, a enim soluta, nemo facilis fugit libero minima odio placeat incidunt praesentium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi ipsum consequuntur laborum debitis ut, quaerat magni tempore voluptas fugit. Ipsum deleniti tempore quam ad sint voluptatum officiis eum impedit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis odit sequi, dolor voluptate vitae repellat assumenda sunt doloremque molestias ut ex consectetur et, non, ab perferendis tempore dolores quasi debitis.</p>
+
+        <picture>
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg"> 
+            <!-- max width quer dizer que quando ela passar de 600px ela deixa de carregar a imagem do srcset e carrega a imagem normal. Ela carrega a imagem do srcset até 600px -->
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores minus deserunt voluptate impedit vel at sapiente fuga quod praesentium sed labore hic, eaque neque eveniet eum ipsam maiores. Dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at! Praesentium ipsum delectus cumque illo explicabo et accusantium culpa excepturi debitis provident officiis dolor laborum qui, placeat temporibus? Natus, reprehenderit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque doloremque iusto recusandae voluptatibus a minima delectus odio doloribus exercitationem enim dolores, consequatur adipisci? Eaque necessitatibus, nesciunt earum cumque corrupti impedit?</p>
+    </main>
+</body>
+</html>

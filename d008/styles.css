@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.cinza{
+    background-color: gray;
+    color: rgb(207, 188, 188);
+}
+
+.verde{
+    background-color: green;
+    color: rgb(96, 233, 96);
+}
+
+.amarela{
+    background-color: yellow;
+    color: rgb(177, 177, 74);
+}
