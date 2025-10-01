@@ -67,7 +67,7 @@ header > p{
     /* align-items: center; o align items não funciona aqui pois ele deixou de ser texto e virou um bloco quando eu coloquei uma largura no max-width, tem que usar margin auto */
     margin: auto ;
     padding: 0px 10px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
 
 }
